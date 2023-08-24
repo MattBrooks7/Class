@@ -1,0 +1,49 @@
+img {
+    height: 20px;
+    width: 20px;
+    align-items: start;
+    padding-right: 5px;
+}
+
+
+button:hover {
+    background-color: blue;
+    font-size: large;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+}
+
+.topnav {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    color: #000000;
+    text-align: center;
+}
+
+.active {
+    color: black;
+    border: 1px solid gray;
+    background-color: whitesmoke;
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgba(128, 128, 128, 0.278)
+}
+
+.company {
+    font-size: large;
+}
+
+button {
+    padding: 5px;
+    font-size: medium;
+    background-color: rgba(128, 128, 128, 0.278);
+}
+
+.search {
+    padding-left: 20px;  
+}
+
