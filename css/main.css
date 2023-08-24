@@ -14,6 +14,7 @@ button:hover {
 #container {
     display: flex;
     align-items: center;
+    border-bottom: 1px solid black;
 }
 
 .topnav {
@@ -30,7 +31,11 @@ button:hover {
     background-color: whitesmoke;
     padding: 10px;
     text-decoration: none;
-    background-color: rgba(128, 128, 128, 0.278)
+    background-color: rgba(128, 128, 128, 0.278);
+}
+
+.active:hover {
+    background-color: red;
 }
 
 .company {
@@ -41,6 +46,11 @@ button {
     padding: 5px;
     font-size: medium;
     background-color: rgba(128, 128, 128, 0.278);
+    border-radius: 25%;
+}
+
+button:hover {
+    background-color: red;
 }
 
 .search {
